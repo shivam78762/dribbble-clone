@@ -67,12 +67,12 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className={`container mx-auto w-full transition-all duration-300 ${
+        className={` mx-auto w-full transition-all duration-300 ${
           isSticky ? "fixed top-0 left-0 bg-white shadow-md z-50" : "relative"
         }`}
       >
-        <div
-          className={`px-4 lg:px-16 mx-auto flex items-center justify-between ${
+        <div 
+          className={`px-4 lg:px-16 container mx-auto flex items-center justify-between ${
             isSticky ? "py-4" : "py-5"
           }`}
         >
@@ -352,7 +352,7 @@ export default function Navbar() {
       </nav>
 
       <div
-        className={`container mx-auto fixed top-0 left-0 w-full bg-[#f8f7f4] transform ${
+        className={`mx-auto fixed top-0 left-0 w-full bg-[#f8f7f4] transform ${
           sidebarOpen ? "translate-x-0" : "-translate-x-full"
         } transition-all duration-300 z-50 shadow-lg`}
       >
@@ -487,7 +487,7 @@ export default function Navbar() {
 
       {sidebarOpen && (
         <div
-          className="fixed inset-0 bg-black/30 z-40"
+          className="fixed inset-0 bg-black/30 z-50"
           onClick={() => setSidebarOpen(false)}
         />
       )}

@@ -56,7 +56,6 @@ export default function Hero() {
           ))}
         </div>
 
-        {/* Search Section */}
         <div className="mt-5 bg-[#f1f1f4]  rounded-full border-3  border-[#f1f1f4]  py-1 px-2 flex flex-col md:flex-row items-center gap-2 focus-within:bg-white focus-within:border-[#faebf9] transition">
           <div className="flex items-center flex-1 w-full">
             <input
@@ -71,7 +70,6 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Trending */}
         <div className="mt-6 flex flex-wrap items-center gap-2 text-sm">
           <span className=" font-semibold">Popular:</span>
 
