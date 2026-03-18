@@ -8,7 +8,7 @@ export default function PromoBanner() {
    <div className="container mx-auto">
      <Link
       href=""
-      className=" lg:mx-24 block bg-[#f8f8fc] rounded-xl px-4 py-6 lg:py-3 my-5 transition"
+      className="mx-5 lg:mx-24 block bg-[#f8f8fc] rounded-xl px-4 py-6 lg:py-3 my-5 transition"
     >
       <div className="flex flex-wrap items-center gap-4">
         <div className="bg-white border border-white hover:border-[#d1ceda] py-2 px-3 rounded-full relative flex items-center gap-1">

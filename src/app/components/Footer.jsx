@@ -94,7 +94,7 @@ const Footer = () => {
             ))}
           </ul>
 
-          <ul className="flex flex-wrap gap-4">
+          <ul className="flex flex-wrap justify-center gap-4">
             {bottomRight.map((item, i) => (
               <li key={i}>
                 <Link href={item.href} className="hover:text-black">

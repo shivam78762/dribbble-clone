@@ -390,7 +390,6 @@ export default function Navbar() {
                   mobileActive === menu.key ? "max-h-[500px] mt-3" : "max-h-0"
                 }`}
               >
-                {/* EXPLORE */}
                 {menu.key === "explore" && (
                   <div className="text-sm text-gray-600 flex flex-col gap-2">
                     <p className="hover:text-black cursor-pointer">Popular</p>
@@ -413,7 +412,6 @@ export default function Navbar() {
                   </div>
                 )}
 
-                {/* HIRE TALENT */}
                 {menu.key === "hire" && (
                   <div className="flex flex-col gap-3">
                     {items.map((item, i) => (
@@ -438,7 +436,6 @@ export default function Navbar() {
                   </div>
                 )}
 
-                {/* GET HIRED */}
                 {menu.key === "getHired" && (
                   <div className="flex flex-col gap-3">
                     {items.map((item, i) => (
@@ -454,7 +451,6 @@ export default function Navbar() {
                   </div>
                 )}
 
-                {/* COMMUNITY */}
                 {menu.key === "community" && (
                   <div className="flex flex-col gap-3">
                     {items.map((item, i) => (
